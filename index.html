@@ -17,12 +17,21 @@
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Введите email">
         </div>
-        <div class="label3">
-            <label for="qw">Откуда узнали о нас</label>
-            <input type="radio" name="qw" id="friends" value="friends">Друзья
-            <input type="radio" name="qw" id="internet" value="internet">Интеренет - ресурсы
-            <input type="radio" name="qw" id="Colleagues" value="Colleagues">Коллеги
-        </div>
+       <fieldset>
+            <legend>Откуда узнали о нас?</legend>
+            <div class="label3">
+                <label for="friends">Друзья</label>
+                <input type="radio" name="radio" id="friends" value="friends">
+            </div>
+            <div class="label3">
+                <label for="internet">Интеренет</label>
+                <input type="radio" name="radio" id="internet" value="internet">
+            </div>  
+            <div class="label3">
+                <label for="Colleagues">Коллеги</label>
+                <input type="radio" name="radio" id="Colleagues" value="Colleagues">
+            </div>
+        </fieldset>
         <div class="label4">
             <label for="qwe">Тип обращения</label>
             <select id="qwe" name="qwe">
@@ -33,7 +42,7 @@
         <div class="label5">
             <label for="message">Текст сообщения</label>
             <br>
-            <textarea id="messag" cols="25" rows="5" name="message"></textarea>
+            <textarea id="message" cols="25" rows="5" name="message"></textarea>
         </div>
         <div class="label6">
             <label for="file">Выберите файл</label>
